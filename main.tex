@@ -27,6 +27,9 @@
 %\usepackage[scale=1.5]{beamerposter} % Use the beamerposter package for laying out the poster
 \usepackage[scale=1.4]{beamerposter} 
 \usetheme{confposter} % Use the confposter theme supplied with this template
+\usepackage{pstricks}
+%\usepackage{auto-pst-pdf}
+\usepackage{graphicx}
 
 \setbeamercolor{block title}{fg=ngreen,bg=white} % Colors of the block titles
 \setbeamercolor{block body}{fg=black,bg=white} % Colors of the body of blocks
@@ -55,7 +58,7 @@
 \setlength{\topmargin}{-0.5in} % Reduce the top margin size
 %-----------------------------------------------------------
 
-\usepackage{graphicx}  % Required for including images
+%\usepackage{graphicx}  % Required for including images
 
 \usepackage{booktabs} % Top and bottom rules for tables
 
@@ -67,8 +70,9 @@
 
 \author{Siddharth Sigtia$^\ast$,Emmanouil Benetos$^\dag$,Srikanth Cherla$^\dag$,Arter d'Avila Garcez$^\dag$,Tillman Weyde$^\dag$ and Simon Dixon$^\ast$} % Author(s)
 
-\institute{$^\ast$ EECS, Queen Mary University of London\\
-		   $^\dag$Computer Science Department, City University London} % Institution(s)
+\institute{$^\ast$ Centre for Digital Music, Queen Mary University of London\\
+		   $^\dag$ Music Informatics Research Group, City University London\\ \vspace{0.2in}
+		   \small{Contact: \texttt{s.s.sigtia@qmul.ac.uk}}} % Institution(s)
 
 %----------------------------------------------------------------------------------------
 
@@ -130,7 +134,9 @@
 \begin{block}{Language Modeling}
 
 \begin{figure}
-\includegraphics[width=0.8\linewidth]{RNN.png}
+\centering
+%\includegraphics[width=0.8\linewidth]{RNN.png}
+\resizebox{800pt}{!}{\input{RNN.tex}}
 \caption{Generative RNN architecture}
 \end{figure}
 \begin{itemize}
@@ -143,7 +149,7 @@
 \item This assumption of independence is violated by polyphonic music. 
 \end{itemize}
 \begin{figure}
-\includegraphics[width=0.8\linewidth]{rnnrbm.png}
+\resizebox{800pt}{!}{\includegraphics{outfile.eps}}
 \caption{RNN-NADE architecture}
 \end{figure}
 \begin{itemize}
@@ -200,7 +206,7 @@ $P_{t}(p)$: Pitch activation probability of $p$ at $t$.
 
 \begin{block}{Proposed Transcription System}
 \begin{figure}
-\includegraphics[width=0.9\linewidth]{system.png}
+\includegraphics[width=0.9\linewidth]{FigSystem.eps}
 \caption{Proposed Transcription Architecture}
 \end{figure}
 
@@ -291,6 +297,9 @@ $P_{t}(p)$: Pitch activation probability of $p$ at $t$.
 \item Configuration 3: MLM used to re-transcribe recordings according to Equation 1.
 \end{itemize}
 \end{alertblock}
+\begin{itemize}
+ \item Results from table 2 demonstrate that the MLM can be trained on data from a different source as compared to the acoustic model.
+\end{itemize}
 
 %\begin{itemize}
 %\item Table 2 summarizes the results of the transcription experiments on the Bach-10 dataset using the different configurations.
@@ -408,12 +417,12 @@ $P_{t}(p)$: Pitch activation probability of $p$ at $t$.
 \end{itemize}
 
 \begin{figure}
-\includegraphics[width=0.9\linewidth]{FigSpectrogram.png}
+\includegraphics[width=0.9\linewidth]{FigSpectrogram.eps}
 \caption{(a) The spectrogram $V_{\omega,t}$ for a recording. (b) The pitch activation $P(p,t)$ using the  transcription-prediction system with the NADE-HF.}
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=0.9\linewidth]{FigTranscription.png}
+\includegraphics[width=0.9\linewidth]{FigTranscription.eps}
 \caption{(a) Post-processed output of the transcription-prediction system with the NADE-HF. (b) The pitch ground truth of the recording.}
 \end{figure}
 
