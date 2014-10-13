@@ -26,7 +26,6 @@
 \documentclass[final]{beamer}
 %\usepackage[scale=1.5]{beamerposter} % Use the beamerposter package for laying out the poster
 \usepackage[scale=1.4]{beamerposter} 
-
 \usetheme{confposter} % Use the confposter theme supplied with this template
 
 \setbeamercolor{block title}{fg=ngreen,bg=white} % Colors of the block titles
@@ -113,14 +112,14 @@
 
 %In this paper, we investigate the use of Music Language Models (MLMs) for improving Automatic Music Transcription performance. The MLMs are trained on sequences of symbolic polyphonic music from the Nottingham dataset. We train Recurrent Neural Network (RNN)-based models, as they are capable of capturing complex temporal structure present in symbolic music data. Similar to the function of language models in automatic speech recognition, we use the MLMs to generate a prior probability for the occurrence of a sequence. The acoustic AMT model is based on probabilistic latent component analysis, and prior information from the MLM is incorporated into the transcription framework using Dirichlet priors. We test our hybrid models on a dataset of multiple-instrument polyphonic music and report a significant 3\% improvement in terms of F-measure, when compared to using an acoustic-only model.
 \begin{itemize}
-\item We investigate the problem of incorporating \emph{symbolic} priors into automatic music transcription systems.
+\item We investigate the problem of incorporating \textbf{symbolic} priors into automatic music transcription (AMT) systems.
 %\item Traditional AMT algorithms model the acoustic signal but ignore higher level information present in the structure and patterns that appear in sequences of polyphonic music.
 %\item Sequences of polyphonic music are comprised of repeating patterns and structures. Transcription systems can be 
 \item An accurate model of higher-level symbolic music can potentially help improve transcription by providing a measure of expectations of predicted notes. 
 \item Training accurate statistical models for predicting musical score is a harder problem than language modeling for speech. 
 \item It is not immediately obvious how to combine the two sources of information together into a transcription system. 
-\item We investigate one possible architecture using an RNN language model and a PLCA acoustic model. 
-\item The proposed architecture results in a $3\%$ improvement in F-measure on the BACH-10 dataset. 
+\item We investigate one possible architecture using a recurrent neural network (RNN) \textbf{music language model} (MLM) and a spectrogram factorisatoin based acoustic model. 
+\item The proposed architecture results in a $3\%$ improvement in F-measure on the Bach-10 dataset. 
 \end{itemize}
 
 \end{block}
@@ -136,7 +135,7 @@
 \end{figure}
 \begin{itemize}
 %\item Polyphonic music prediction cannot be achieved with simple models such as n-grams which are popular in speech. 
-\item Recurrent neural networks (RNN) are interesting models for polyphonic music prediction systems for the following reasons:
+\item RNNs are powerful models for polyphonic music prediction systems \cite{boulanger2012modeling}. 
 %\item Hidden state summarizes the entire sequence. 
 %\item Theoretically capable of learning dependencies between inputs over arbitrary lengths of time. 
 \item One limitation is that the outputs of an RNN define unimodal distributions over output variables. 
@@ -149,7 +148,7 @@
 \end{figure}
 \begin{itemize}
 \item Multimodal conditional distributions can be modeled by allowing the RNN to predict parameters of a high-dimensional density estimator like the RBM or NADE. 
-\item We use the NADE because calculating probabilities is tractable and it can be trained with Hessian Free. 
+\item We use the NADE because calculating probabilities is tractable and it can be trained with Hessian Free (HF) optimisation. 
 \end{itemize}
 \end{block}
 
@@ -174,7 +173,7 @@
 
 \begin{itemize}
 \item We utilise the multiple-instrument transcription system based on probabilistic latent component analysis (PLCA). 
-\item The input spectrogram $V_{\omega,t}$ is approximated as $P(\omega,t)$ ($\omega$: frequency, $t$: time). Model:
+\item The input spectrogram $V_{\omega,t}$ is approximated as $P(\omega,t)$ ($\omega$: frequency, $t$: time). 
 \end{itemize}
 \setbeamercolor{block alerted title}{fg=black,bg=yellow} % Change the alert block title colors
 \setbeamercolor{block alerted body}{fg=black,bg=white} % Change the alert block body colors
@@ -182,7 +181,7 @@
 \begin{alertblock}{PLCA Model}
 
 \begin{equation}
-P(\omega,t) = P(t)\sum_{p,f,s}P(\omega|s,p,f)P_{t}(f|p)P_{t}(s|p)P_{t}(p) \label{eq:Model}
+P(\omega,t) = P(t)\sum_{p,f,s}P(\omega|s,p,f)P_{t}(f|p)P_{t}(s|p)P_{t}(p) \label{eq:Model} \nonumber
 \end{equation} 
 \\
 $P(t)$: Signal energy (known quantity). \\
@@ -193,8 +192,8 @@ $P_{t}(p)$: Pitch activation probability of $p$ at $t$.
 \end{alertblock}
 
 \begin{itemize}
-\item The unknown model parameters are estimated using the Expectation-maximisation (EM) algorithm.
-\item Using fixed sound templates ($P(\omega|s,p,f)$), 20-30 iterations of the EM algorithm are sufficient for convergence. 
+\item The unknown model parameters are estimated using the Expectation-Maximisation (EM) algorithm.
+\item Using fixed sound templates $P(\omega|s,p,f)$, 20-30 iterations of the EM algorithm are sufficient for convergence. 
 \end{itemize}
 
 \end{block}
@@ -208,13 +207,14 @@ $P_{t}(p)$: Pitch activation probability of $p$ at $t$.
 %----------------------------------------------------------------------------------------
 \begin{itemize}
 \item The outputs of the PLCA acoustic model form a multinomial distribution. 
-\item The Dirichlet distribution is conjugate to the multinomial distribution and a Dirichlet prior can be used to combine the two sources of information [ref].
+\item The Dirichlet distribution is conjugate to the multinomial distribution and a Dirichlet prior can be used to combine the two sources of information.
 \item Dirichlet prior for pitch activation: $\alpha_t(p) = P_t(p)P_{MLM}(p,t)$
 \item The recording is re-transcribed using the following equation.
 \begin{equation}
  P_{t}(p) \propto \sum_{\omega,f,s}P_{t}(p,f,s|\omega)V_{\omega,t}+\kappa\alpha_{t}(p) \label{eq:modifiedMStepPitchActivation} 
 \end{equation}
 \item $\kappa$ is a parameter that controls the degree of influence of the prior. $\kappa$ is decressed from 1 to 0 over subsequent iterations.
+\item Therefore, the transcription yields a symbolic prediction, which improves the subsequent re-transcription of the input. 
 \end{itemize}
 \end{block}
 \end{column} % End of column 2.1
@@ -288,13 +288,13 @@ $P_{t}(p)$: Pitch activation probability of $p$ at $t$.
 \begin{itemize}
 \item Configuration 1: PLCA Acoustic model only. \\
 \item Configuration 2: Predictions from acoustic model as inputs to MLM. 
-\item Configuration 3: MLM used to re-transcribe recordings according to Equation 2.
+\item Configuration 3: MLM used to re-transcribe recordings according to Equation 1.
 \end{itemize}
 \end{alertblock}
 
-\begin{itemize}
-\item Table 2 summarizes the results of the transcription experiments on the Bach-10 dataset using the different configurations.
-\end{itemize}
+%\begin{itemize}
+%\item Table 2 summarizes the results of the transcription experiments on the Bach-10 dataset using the different configurations.
+%\end{itemize}
 
 \end{block}
 

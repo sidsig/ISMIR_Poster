@@ -1,0 +1,10 @@
+\begin{thebibliography}{1}
+
+\bibitem{boulanger2012modeling}
+Nicolas Boulanger-lewandowski, Yoshua Bengio, and Pascal Vincent.
+\newblock Modeling temporal dependencies in high-dimensional sequences:
+  Application to polyphonic music generation and transcription.
+\newblock In {\em Proceedings of the 29th International Conference on Machine
+  Learning (ICML)}, pages 1159--1166, 2012.
+
+\end{thebibliography}

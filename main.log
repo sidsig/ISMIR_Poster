@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  9 OCT 2014 21:12
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  13 OCT 2014 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1032,108 +1032,108 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 69.
+(hyperref)                removing `math shift' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 69.
+(hyperref)                removing `superscript' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ast' on input line 69.
+(hyperref)                removing `\ast' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 69.
+(hyperref)                removing `math shift' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 69.
+(hyperref)                removing `math shift' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 69.
+(hyperref)                removing `superscript' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 69.
+(hyperref)                removing `math shift' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 69.
+(hyperref)                removing `math shift' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 69.
+(hyperref)                removing `superscript' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 69.
+(hyperref)                removing `math shift' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 69.
+(hyperref)                removing `math shift' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 69.
+(hyperref)                removing `superscript' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 69.
+(hyperref)                removing `math shift' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 69.
+(hyperref)                removing `math shift' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 69.
+(hyperref)                removing `superscript' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 69.
+(hyperref)                removing `math shift' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 69.
+(hyperref)                removing `math shift' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 69.
+(hyperref)                removing `superscript' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ast' on input line 69.
+(hyperref)                removing `\ast' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 69.
+(hyperref)                removing `math shift' on input line 68.
 
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 75.
  (/usr/local/texlive/2011/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 76.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 75.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1202,7 +1202,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 76.
+Package hyperref Info: Link coloring OFF on input line 75.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -1212,9 +1212,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count184
 )
-LaTeX Info: Redefining \ref on input line 76.
-LaTeX Info: Redefining \pageref on input line 76.
-LaTeX Info: Redefining \nameref on input line 76.
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
@@ -1245,37 +1245,56 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \selectfont on input line 76.
+LaTeX Info: Redefining \selectfont on input line 75.
  (./main.nav)
-LaTeX Font Info:    Calculating math sizes for size <50.16> on input line 76.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 76.
+<c4dm-logo.png, id=11, 117.43875pt x 18.0675pt>
+File: c4dm-logo.png Graphic file (type png)
+ <use c4dm-logo.png>
+Package pdftex.def Info: c4dm-logo.png used on input line 75.
+(pdftex.def)             Requested size: 332.40656pt x 83.12386pt.
 
+Overfull \hbox (166.20386pt too wide) in paragraph at lines 75--75
+[]  
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <20.16> on input line 75.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 75.
 (/usr/local/texlive/2011/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 76.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 75.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 75.
 
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <20.16> not available
+(Font)              size <20.74> substituted on input line 75.
+
+LaTeX Font Info:    Calculating math sizes for size <50.16> on input line 75.
+
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <50.16> not available
-(Font)              size <24.88> substituted on input line 76.
+(Font)              size <24.88> substituted on input line 75.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <35.11185> not available
-(Font)              size <24.88> substituted on input line 76.
+(Font)              size <24.88> substituted on input line 75.
 
-LaTeX Font Info:    Calculating math sizes for size <20.16> on input line 76.
+<city-logo.png, id=12, 216.81pt x 68.255pt>
+File: city-logo.png Graphic file (type png)
+ <use city-logo.png>
+Package pdftex.def Info: city-logo.png used on input line 75.
+(pdftex.def)             Requested size: 332.44601pt x 83.1064pt.
 
-LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <20.16> not available
-(Font)              size <20.74> substituted on input line 76.
+Overfull \hbox (166.24332pt too wide) in paragraph at lines 75--75
+ [] 
+ []
 
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 448.
 (/usr/local/texlive/2011/texmf-dist/tex/latex/lm/t1lmr.fd
@@ -1297,19 +1316,19 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <41.8> not available
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <29.25987> not available
 (Font)              size <24.88> substituted on input line 448.
 
-<RNN.png, id=12, 357.0138pt x 90.0966pt>
+<RNN.png, id=14, 357.0138pt x 90.0966pt>
 File: RNN.png Graphic file (type png)
  <use RNN.png>
 Package pdftex.def Info: RNN.png used on input line 448.
 (pdftex.def)             Requested size: 751.15977pt x 189.56999pt.
 
-<rnnrbm.png, id=14, 388.45125pt x 214.8025pt>
+<rnnrbm.png, id=17, 388.45125pt x 214.8025pt>
 File: rnnrbm.png Graphic file (type png)
  <use rnnrbm.png>
 Package pdftex.def Info: rnnrbm.png used on input line 448.
 (pdftex.def)             Requested size: 751.15977pt x 415.38235pt.
 
-<system.png, id=15, 1026.83624pt x 347.2975pt>
+<system.png, id=18, 1026.83624pt x 347.2975pt>
 File: system.png Graphic file (type png)
  <use system.png>
 Package pdftex.def Info: system.png used on input line 448.
@@ -1319,7 +1338,7 @@ Overfull \hbox (32.17949pt too wide) in paragraph at lines 448--448
  [] 
  []
 
-<FigSpectrogram.png, id=16, 567.11874pt x 479.7925pt>
+<FigSpectrogram.png, id=19, 567.11874pt x 479.7925pt>
 File: FigSpectrogram.png Graphic file (type png)
  <use FigSpectrogram.png>
 Package pdftex.def Info: FigSpectrogram.png used on input line 448.
@@ -1334,18 +1353,34 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <34.83> not available
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <24.38089> not available
 (Font)              size <24.88> substituted on input line 448.
 
-<FigTranscription.png, id=17, 524.96124pt x 446.66875pt>
+<FigTranscription.png, id=20, 524.96124pt x 446.66875pt>
 File: FigTranscription.png Graphic file (type png)
 
 <use FigTranscription.png>
 Package pdftex.def Info: FigTranscription.png used on input line 448.
 (pdftex.def)             Requested size: 845.04579pt x 719.04657pt.
-
-No file main.bbl.
-
+ (./main.bbl)
 Overfull \hbox (784.78302pt too wide) detected at line 448
 [][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][
 ][] [][][][][][][][][] [][][][][][][] 
+ []
+
+File: c4dm-logo.png Graphic file (type png)
+<use c4dm-logo.png>
+Package pdftex.def Info: c4dm-logo.png used on input line 448.
+(pdftex.def)             Requested size: 332.40656pt x 83.12386pt.
+
+Overfull \hbox (166.20386pt too wide) has occurred while \output is active
+[]  
+ []
+
+File: city-logo.png Graphic file (type png)
+<use city-logo.png>
+Package pdftex.def Info: city-logo.png used on input line 448.
+(pdftex.def)             Requested size: 332.44601pt x 83.1064pt.
+
+Overfull \hbox (166.24332pt too wide) has occurred while \output is active
+ [] 
  []
 
 
@@ -1355,8 +1390,8 @@ Overfull \hbox (887.15672pt too wide) has occurred while \output is active
 
 [1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./RNN.png> <./rnnrbm.png> <./system.png> <./FigSpectrogram.png> <./FigTranscr
-iption.png>]
+ <./c4dm-logo.png> <./city-logo.png> <./RNN.png> <./rnnrbm.png> <./system.png> 
+<./FigSpectrogram.png> <./FigTranscription.png>]
 \tf@nav=\write6
 \openout6 = `main.nav'.
 
@@ -1381,16 +1416,16 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 450.
  ) 
 Here is how much of TeX's memory you used:
- 19902 strings out of 493633
- 374855 string characters out of 3143378
- 585902 words of memory out of 3000000
- 22676 multiletter control sequences out of 15000+200000
+ 19952 strings out of 493633
+ 376494 string characters out of 3143378
+ 590840 words of memory out of 3000000
+ 22721 multiletter control sequences out of 15000+200000
  144054 words of font info for 107 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  52i,18n,66p,908b,1836s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2011/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
-11/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2011/texmf-dist/
+{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
+texlive/2011/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2011/t
+exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2011/texmf-dist/
 fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvi
 ps/lm/lm-mathsy.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmex10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/lm/lm
@@ -1400,10 +1435,10 @@ texlive/2011/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/20
 11/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2011/texmf-d
 ist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2011/texmf-dist/font
 s/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (1 page, 208452 bytes).
+Output written on main.pdf (1 page, 216716 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 74 words of extra memory for PDF output out of 10000 (max. 10000000)
 

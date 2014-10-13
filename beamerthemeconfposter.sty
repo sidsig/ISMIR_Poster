@@ -196,13 +196,23 @@
 \setbeamertemplate{headline}{
  \leavevmode
   \begin{columns}
-   \begin{column}{\linewidth}
+   \begin{column}{.05\linewidth}
+    \begin{flushleft}
+    \includegraphics[width=2.\linewidth,height=.5\linewidth]{c4dm-logo.png}
+    \end{flushleft}
+   \end{column}
+   \begin{column}{.9\linewidth}
     \vskip1cm
     \centering
     \usebeamercolor{title in headline}{\color{jblue}\Large{\textbf{\inserttitle}}\\[0.5ex]}
     \usebeamercolor{author in headline}{\color{fg}\large{\insertauthor}\\[1ex]}
     \usebeamercolor{institute in headline}{\color{fg}\large{\insertinstitute}\\[1ex]}
     \vskip1cm
+   \end{column}
+   \begin{column}{.05\linewidth}
+   \begin{center}
+    \includegraphics[width=2.\linewidth,height=.5\linewidth]{city-logo.png}
+   \end{center}
    \end{column}
    \vspace{1cm}
   \end{columns}
