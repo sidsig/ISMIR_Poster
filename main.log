@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.1.7)  13 OCT 2014 12:51
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.1.7)  16 OCT 2014 20:08
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -1355,10 +1355,10 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  19775 strings out of 493849
  364614 string characters out of 1152847
- 606265 words of memory out of 3000000
+ 605529 words of memory out of 3000000
  22491 multiletter control sequences out of 15000+50000
  147660 words of font info for 110 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  52i,18n,66p,908b,1869s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.dvi (1 page, 61708 bytes).
+Output written on main.dvi (1 page, 60964 bytes).
